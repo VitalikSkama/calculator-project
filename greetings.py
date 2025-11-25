@@ -1,7 +1,9 @@
 import datetime
 
-name = input("Введіть ваше ім'я: ")
+with open("data/names.txt", "r") as file:
+    names = file.read().splitlines()
+
 now = datetime.datetime.now().strftime("%H:%M:%S")
 
-print(f"Привіт, {name}!")
-print(f"Поточний час: {now}")
+for name in names:
+    print(f"Привіт, {name}! Час зараз: {now}")
