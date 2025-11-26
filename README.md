@@ -7,3 +7,6 @@ python greetings.py
 
 ## Автор
 Демборинський Віталій
+
+## Update from feature branch
+Додано оновлення в індивідуальному завданні.

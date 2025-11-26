@@ -7,3 +7,5 @@ now = datetime.datetime.now().strftime("%H:%M:%S")
 
 for name in names:
     print(f"Привіт, {name}! Час зараз: {now}")
+
+print("Це оновлення з гілки feature-update")
